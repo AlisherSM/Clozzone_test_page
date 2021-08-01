@@ -1,4 +1,14 @@
 body {
     margin: 0;
-    font-family: ;
+    font-family: 'montserrat', sans-serif; 
+}
+.container {
+    width: 100%;
+    max-width: 1375px;
+    margin: 0 auto;
+}
+
+/* Header =========================================================================================================== */
+.header {
+    
 }
