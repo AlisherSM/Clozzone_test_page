@@ -2,6 +2,9 @@ body {
     margin: 0;
     font-family: 'montserrat', sans-serif; 
 }
+* {
+    box-sizing: border-box;
+}
 .container {
     width: 100%;
     max-width: 1375px;
@@ -9,6 +12,27 @@ body {
 }
 
 /* Header =========================================================================================================== */
-.header {
+header {
+    height: 90px;
+    background-color: #FFC600;
+    color: #ffffff;
+    
+}
+.header__inner {
+    height: 90px;
+}
+.header__logo {
+     width: 203px;
+     height: auto; 
+}
+.header__menu {
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 600;
+    display: inline-block
+    
+}
+.header__menulist {
+    display: inline;
     
 }
