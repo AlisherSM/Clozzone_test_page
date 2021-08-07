@@ -49,14 +49,19 @@ header {
     transform: rotate(102grad);
 }
 .header__search {
-    width: 17%; 
+    width: auto;
+    display: flex;
+    align-items: center;
+    margin-left: 24px;
 }
 .header__search_input {
     height: 36px;
+    width: 100%;
     background-color: rgba(255, 255, 255, 0.3);
     border: 1px solid rgba(255, 255, 255, 0.5);
     border-radius: 3px;
-    margin-left: 24px;
+    z-index: 1;
+    
 }
 .header__search_input:focus {
     outline: none;
@@ -67,4 +72,13 @@ header {
    font-style: italic;
    padding-left: 15px;
    font-size: 12px;
+}
+.search__button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: ;
+    position: absolute right;
+    z-index: 2;
+
 }
