@@ -43,18 +43,18 @@ header {
     margin: 0 0 0 24px;
 }
 .header__menulist:hover {
-    color: black;
+    color: #333333;
 }
 .header__menulist:hover img {
     transform: rotate(102grad);
 }
 .header__search {
     width: 17%;
-    display: flex;
+    display: inline-flex;
     align-items: center;
     margin-left: 24px;
 }
-.header__search_input {
+.header__searchinput {
     height: 36px;
     width: 100%;
     min-width: 100%;
@@ -62,10 +62,12 @@ header {
     border: 1px solid rgba(255, 255, 255, 0.5);
     border-radius: 3px;
 }
-.header__search_input:focus {
+.header__searchinput:focus {
     outline: none;
+    border: 2px solid #333333;
+
 }
-.header__search_input::placeholder {
+.header__searchinput::placeholder {
    color: #333333;
    font-weight: 400;
    font-style: italic;
@@ -74,9 +76,9 @@ header {
 }
 .search__button {
     background: none;
+    position: relative;
     border: none;
     cursor: pointer;
-    z-index: 2;
-    position: inset;
-
+    z-index: 100;
+    right: 40px;
 }
