@@ -1,7 +1,6 @@
 body {
     margin: 0;
     font-family: 'montserrat', sans-serif;
-    cursor: default;
 }
 *,
 *:before,
@@ -16,7 +15,7 @@ body {
 
 /* Header =========================================================================================================== */
 header {
-    height: 90px;
+    height: 75px;
     background-color: #FFC600;
     color: #ffffff;
     display: flex;
@@ -41,6 +40,7 @@ header {
     font-weight: 600;
     display: inline-block;
     margin: 0 0 0 24px;
+    cursor: default;
 }
 .header__menulist:hover {
     color: #333333;
@@ -81,4 +81,13 @@ header {
     cursor: pointer;
     z-index: 100;
     right: 40px;
+}
+.profile__block {
+    display: flex;
+    margin-left: auto;
+    margin-right: 24px;
+}
+.profile__items {
+    display: flex;
+    margin-left: 24px;
 }
