@@ -44,15 +44,17 @@ header {
 }
 .header__menulist:hover {
     color: #333333;
+    transition: .2s
 }
 .header__menulist:hover img {
     transform: rotate(102grad);
+    transition: .2s;
 }
 .header__search {
     width: 17%;
     display: inline-flex;
     align-items: center;
-    margin-left: 24px;
+    margin: 0 auto;
 }
 .header__searchinput {
     height: 36px;
@@ -90,4 +92,61 @@ header {
 .profile__items {
     display: flex;
     margin-left: 24px;
+    align-items: center;
 }
+.profile__items__lang {
+    margin-right: 4px;
+    font-size: 14px;
+}
+.profile__items__login__button {
+    width: 113px;
+    height: 36px;
+    border-radius: 3px;
+    outline: 0;
+    background-color: #333333;
+    color: #ffffff;
+    border: 0;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+}
+.profile__items__login__button:hover {
+    background-color: #000;
+    transition: .2s;
+}
+/* Header =========================================================================================================== */
+.intro-main-banner {
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* main =========================================================================================== */
+.main__topproducts {
+    margin-top: 50px;
+}
+.main__topproducts h4 {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 39px;
+    text-align: center;
+}
+.main__topproducts__cart {
+    height: 490px;
+}
+.cart__block {
+    width: 25%;
+    height: 490px;
+}
+.cart__block__image {
+    width: ;
+    height: 75%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: top;
+}
+
+
+
+/* main =========================================================================================== */
