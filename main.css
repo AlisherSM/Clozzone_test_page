@@ -14,171 +14,50 @@ body {
 }
 
 /* Header =========================================================================================================== */
-header {
+.header-inner {
     height: 75px;
+    width: 100%;
     background-color: #FFC600;
-    color: #ffffff;
+    display: flex;
+}
+.header-logo {
     display: flex;
     align-items: center;
-    
+    margin: auto 15px auto 10px;
 }
-.header__inner{
+.header-logo-item {
+    height: 50px;
+    width: auto;
+}
+.header-menu {
     display: flex;
     align-items: center;
 }
-.header__logo {
-    width: 203px;
-    height: auto;
-    margin-left: 24px;
-}
-.header__menu {
-    display: inline-block;
-}
-.header__menulist {
-    font-size: 18px;
-    line-height: 22px;
+.header-menu-items {
+    margin-left: 20px;
+    color: #fff;
     font-weight: 600;
-    display: inline-block;
-    margin: 0 0 0 24px;
+    font-size: 18px;
     cursor: default;
 }
-.header__menulist:hover {
-    color: #333333;
-    transition: .2s
-}
-.header__menulist:hover img {
-    transform: rotate(102grad);
+.header-menu-items:hover {
+    color: black;
     transition: .2s;
-}
-.header__search {
-    width: 17%;
-    display: inline-flex;
-    align-items: center;
-    margin: 0 auto;
-}
-.header__searchinput {
-    height: 36px;
-    width: 100%;
-    min-width: 100%;
-    background-color: rgba(255, 255, 255, 0.3);
-    border: 1px solid rgba(255, 255, 255, 0.5);
-    border-radius: 3px;
-}
-.header__searchinput:focus {
-    outline: none;
-    border: 2px solid #333333;
 
 }
-.header__searchinput::placeholder {
-   color: #333333;
-   font-weight: 400;
-   font-style: italic;
-   padding-left: 15px;
-   font-size: 12px;
+.header-menu-items-detail:hover {
+    transform: rotate(180gr);
 }
-.search__button {
-    background: none;
-    position: relative;
-    border: none;
-    cursor: pointer;
-    z-index: 100;
-    right: 40px;
-}
-.profile__block {
-    display: flex;
-    margin-left: auto;
-    margin-right: 24px;
-}
-.profile__items {
-    display: flex;
-    margin-left: 24px;
-    align-items: center;
-}
-.profile__items__lang {
-    margin-right: 4px;
-    font-size: 14px;
-}
-.profile__items__login__button {
-    width: 113px;
-    height: 36px;
-    border-radius: 3px;
-    outline: 0;
-    background-color: #333333;
-    color: #ffffff;
-    border: 0;
-    font-weight: 600;
-    font-size: 16px;
-    cursor: pointer;
-}
-.profile__items__login__button:hover {
-    background-color: #000;
-    transition: .2s;
-}
+
+
 /* Header =========================================================================================================== */
 
 /* Intro ================================================================================================== */
 
-.intro-main-banner {
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.intro-main-bannner-selector {
-    position: absolute;
-    top: 675px;
-    display: flex;
-    
-}
-.intro-main-banner-selector-item {
-    width: 24px;
-    height: 24px;
-    background-color: #ffffff;
-    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.15);
-    border-radius: 50%;
-    margin-left: 7px;
-    cursor: pointer;
-    outline: #333333 5px medium;
-    border-color: #333333;
-}
-.intro-main-banner-selector-item:hover {
-    width: 30px;
-    height: 30px;
-    transition: .3s;
-}
+
 /*-- Intro ================================================================================================== */
 
 /* main =========================================================================================== */
-.main__topproducts {
-    margin-top: 50px;
-}
-.main__topproducts h4 {
-    font-size: 32px;
-    font-weight: 600;
-    line-height: 39px;
-    text-align: center;
-}
-.main__topproducts__cart {
-    height: 490px;
-}
-.cart__block {
-    margin: 0 auto;
-    width: 250px;
-    height: 425px;
-}
-.cart__block__image {
-    width: auto;
-    height: auto;
-    max-height: 300px;
-    max-width: 250px;
-    object-fit: cover;
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-}
-
 
 
 /* main =========================================================================================== */
