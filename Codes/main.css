@@ -14,40 +14,7 @@ body {
 }
 
 /* Header =========================================================================================================== */
-.header-inner {
-    height: 75px;
-    width: 100%;
-    background-color: #FFC600;
-    display: flex;
-}
-.header-logo {
-    display: flex;
-    align-items: center;
-    margin: auto 15px auto 10px;
-}
-.header-logo-item {
-    height: 50px;
-    width: auto;
-}
-.header-menu {
-    display: flex;
-    align-items: center;
-}
-.header-menu-items {
-    margin-left: 20px;
-    color: #fff;
-    font-weight: 600;
-    font-size: 18px;
-    cursor: default;
-}
-.header-menu-items:hover {
-    color: black;
-    transition: .2s;
 
-}
-.header-menu-items-detail:hover {
-    transform: rotate(180gr);
-}
 
 
 /* Header =========================================================================================================== */
