@@ -13,7 +13,7 @@ body {
     margin: 0 auto;
 }
 
-/* Header =========================================================================================================== */
+/* Header ============================= */
 .header-block {
     background-color: #FFC600;
     height: 75px;
@@ -113,18 +113,48 @@ body {
     background-color: black;
     transition: .2s;
 }
+/* Header ============================*/
+
+/* Intro ============================ */
+.intro {
+    position: relative;
+}
+.intro__banner {
+    display: flex;
+    justify-content: center;
+    overflow-x: hidden;
+    z-index: 1;
+}
+.intro__selector {
+    position: absolute;
+    display: flex;
+    left: 45%;
+    transform: translate(0, -45%);
+    bottom: 10px;
+    z-index: 2;
+}
+.intro__selector__item {
+    height: 30px;
+    width: 30px;
+    background-color: #fff;
+    border-radius: 50%;
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.20);
+}
+.intro__selector__item {
+    margin-left: 9px;
+}
+.intro__selector__item:first-child {
+    margin-left: 0;
+}
+.intro__selector__item:hover {
+    background-color: lightgray;
+    transition: .2s;
+}
 
 
+/*-- Intro =========================== */
+
+/* main ============================= */
 
 
-/* Header =========================================================================================================== */
-
-/* Intro ================================================================================================== */
-
-
-/*-- Intro ================================================================================================== */
-
-/* main =========================================================================================== */
-
-
-/* main =========================================================================================== */
+/* main ============================ */
