@@ -12,6 +12,10 @@ body {
     max-width: 1375px;
     margin: 0 auto;
 }
+h1,h2,h3,h4,h5,h6 {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
 
 /* Header ============================= */
 .header-block {
@@ -148,13 +152,98 @@ body {
 }
 .intro__selector__item:hover {
     background-color: lightgray;
-    transition: .2s;
+    transition: .1s;
 }
-
-
 /*-- Intro =========================== */
 
 /* main ============================= */
+.daytop-products {
+    margin: 50px 0;
+    
+}
+.daytop-products__Title {
+    font-size: 32px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.daytop-products__cartlist {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+.daytop-products__cart {
+    width: 325px;
+    height: 490px;
+    margin: 0 auto 30px;
+    border-radius: 4px;
+    box-shadow: rgb(110, 110, 110, 0.3)0 2px 3px;
+    transition: all .2s;
+    cursor: pointer;
+}
+
+.daytop-products__cart:hover {
+    box-shadow: rgb(110, 110, 110, 0.3)0 15px 20px;
+    
+}
+.daytop-products__cart__img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    height: 75%;
+    width: 100%;
+    border-radius: 4px;
+}
+.daytop-products__cart__img-item {
+    width: 100%;
+    height: auto;
+}
+.daytop-products__cart__info {
+    position: relative;
+    margin-left: 5px;
+}
+.daytop-products__cart__brand {
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 2px 0;
+}
+.daytop-products__cart__name {
+    font-size: 16px;
+    font-weight: 500;
+    color: #0A0000;
+}
+.daytop-products__cart__color {
+    display: flex;
+    margin: 5px 0;
+}
+.daytop-products__cart__color__item {
+    width: 12px;
+    height: 12px;
+    margin-right: 10px;
+    background-color: red;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.daytop-products__cart__color__item:hover {
+    box-shadow: #7c5e5e 1px 1px 1px 1px;
+}
+.daytop-products__cart__price {
+    font-size: 18px;
+    font-weight: 600;
+    color: #333333;
+}
+.daytop-products__cart__basket {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    padding: 11px;
+    border:#333333 solid 1px;
+    border-radius: 3px;
+    cursor: pointer;
+}
 
 
 /* main ============================ */
