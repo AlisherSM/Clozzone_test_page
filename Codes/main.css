@@ -132,8 +132,8 @@ h1,h2,h3,h4,h5,h6 {
 .intro__selector {
     position: absolute;
     display: flex;
-    left: 45%;
-    transform: translate(0, -45%);
+    left: 47%;
+    transform: translate(0, -47%);
     bottom: 10px;
     z-index: 2;
 }
@@ -151,12 +151,12 @@ h1,h2,h3,h4,h5,h6 {
     margin-left: 0;
 }
 .intro__selector__item:hover {
-    background-color: lightgray;
+    background-color: #FFC600;
     transition: .1s;
 }
 /*-- Intro =========================== */
 
-/* main ============================= */
+/* dayproducts ============================= */
 .daytop-products {
     margin: 50px 0;
     
@@ -228,7 +228,10 @@ h1,h2,h3,h4,h5,h6 {
     cursor: pointer;
 }
 .daytop-products__cart__color__item:hover {
-    box-shadow: #7c5e5e 1px 1px 1px 1px;
+    box-shadow: #7c5e5e 0px 3px 5px 1px;
+}
+.daytop-products__cart__color__item:active {
+    background-color: black;
 }
 .daytop-products__cart__price {
     font-size: 18px;
@@ -244,6 +247,70 @@ h1,h2,h3,h4,h5,h6 {
     border-radius: 3px;
     cursor: pointer;
 }
+.daytop-products__cart__basket:hover {
+    background-color:#FFC600;
+}
+/* Day products============================ */
+
+/* Actual category */
+.cat__block {
+    position: relative;
+    display: flex;
+}
+.cat__title {
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 75px;
+}
+
+.cat__img1 {
+    position: absolute;
+    left: 0;
+    top: 120px;
+}
+.cat__img2 {
+    position: absolute;
+    left: 695px;
+    right: 398px;
+    top: 120px;
+}
+.cat__img3 {
+    position: absolute;
+    left: 1035px;
+    right: 35px;
+    top: 120px;
+}
+.cat__img4 {
+    position: absolute;
+    left: 0px;
+    top: 465px;
+}
+.cat__img5 {
+    position: absolute;
+    top: 465px;
+    left: 372px;
+}
+.cat__img6 {
+    position: absolute;
+    left: 0;
+    top: 810px;
+}
+.cat__img7 {
+    position: absolute;
+    left: 372px;
+    top: 810px;
+}
+.cat__img8 {
+    position: absolute;
+    top: 810px;
+    left: 714px
+}
+.cat__img9 {
+    position: absolute;
+    left: 372px;
+    top: 1153px;
+}
 
 
-/* main ============================ */
+/* Actual category */
