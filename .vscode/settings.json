@@ -1,3 +1,4 @@
 {
-    "liveServer.settings.wait": 0
+    "liveServer.settings.wait": 0,
+    "editor.scrollbar.verticalScrollbarSize": 0
 }
