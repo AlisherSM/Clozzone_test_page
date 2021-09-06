@@ -19,11 +19,13 @@ h1,h2,h3,h4,h5,h6 {
 
 /* Header ============================= */
 .header-block {
+    background-color: #FFC600;
+    
 }
 .header-inner {
     display: flex;
     align-items: center;
-    background-color: #FFC600;
+    
 }
 .header-logo img {
     margin-left: 15px;
@@ -323,6 +325,33 @@ h1,h2,h3,h4,h5,h6 {
 .cats__ref a:hover {
     font-weight: 800;
 }
+
+/* Brands ========== */
+.brands {
+    margin-bottom: 75px;
+}
+.brands__title {
+    font-weight: 600;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 75px;
+}
+.brands__brands {
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    grid-gap: 30px;
+    
+}
+.Brands__item {
+    height: auto;
+}
+.Brands__item:hover {
+    cursor: pointer;
+    box-shadow: rgb(110, 110, 110, 0.3)5px 15px 20px;
+    transition: all .2s;
+    border-radius: 4px;
+}
+
 
 
 
